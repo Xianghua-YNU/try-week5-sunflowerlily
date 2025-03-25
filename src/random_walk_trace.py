@@ -45,6 +45,7 @@ if __name__ == "__main__":
     plt.title('Single Random Walk Trajectory')
     plt.show()
     
+    
     # Task 2: Four different random walk trajectories
     plot_multiple_walks()
     plt.show()
