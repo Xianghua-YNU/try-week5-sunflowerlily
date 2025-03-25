@@ -56,7 +56,6 @@ def analyze_step_dependence():
     """
     # 获取步数和均方位移数据
     steps, msd = calculate_mean_square_displacement()
-    msd = np.array(msd)
     
     # 最小二乘拟合（强制过原点）
     # 理论上 msd = k * steps，k应该接近2
