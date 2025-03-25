@@ -16,7 +16,7 @@ TESTS = [
     {"name": "随机行走轨迹模拟", "file": "tests/test_random_walk_trace.py", "points": 10},
     {"name": "随机行走终点分布", "file": "tests/test_endpoints_analysis.py", "points": 10},
     {"name": "随机行走均方位移", "file": "tests/test_mean_square_displacement.py", "points": 10},
-    {"name": "随机行走位移分布", "file": "tests/test_random_walk_displacement", "points": 10},
+    {"name": "随机行走位移分布", "file": "tests/test_random_walk_displacement.py", "points": 10},
     {"name": "泊松分布数值模拟", "file": "tests/test_poisson_simulation.py", "points": 10}
 ]
 
